@@ -59,6 +59,7 @@
 
 
 ## 📂 Project Structure
+```
 /
 ├── index.html               # Landing page
 ├── login.html               # User authentication
@@ -76,10 +77,12 @@
 ├── styles.css               # Global styles  
 ├── tracking.css             # Queue tracking styles
 ├── symptoms and solutions.txt # Symptom‑to‑solution mappings
-└── assets/                   # Images & logos
+└── assets/                  # Images & logos
     ├── logo.png
     ├── doctors.png
     └── ...
+
+```
 
 
 
