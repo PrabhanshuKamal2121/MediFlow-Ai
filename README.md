@@ -8,17 +8,16 @@
 > **Mediflow AI** is an end‑to‑end, AI‑powered hospital queue management web app designed to streamline patient flow, reduce wait times, and improve operational efficiency.
 
 
-
 ## 🎯 Table of Contents
 
 1. [✨ Features](#-features)  
 2. [🛠️ Tech Stack](#️-tech-stack)  
 3. [📂 Project Structure](#-project-structure)  
-4. [⚙️ Installation & Usage](#️-installation--usage)  
-5. [📸 Screenshots](#-screenshots)  
-6. [🤝 Contributing](#-contributing)  
-7. [📄 License](#-license)  
-8. [✉️ Contact](#️-contact)  
+4. [📌 Project Highlights](#-project-highlights)  
+5. [📂 How Files Work](#-how-files-work)  
+6. [📈 Future Scope](#-future-scope)  
+7. [🙋‍♂️ Who is this for?](#-who-is-this-for)  
+8. [✉️ Contact](#-contact)   
 
 
 
@@ -51,7 +50,7 @@
 | Layer            | Tools & Libraries                             |
 |------------------|-----------------------------------------------|
 | **Frontend**     | HTML5, CSS3, JavaScript (ES6)                 |
-| **AI Integration** | Chatbase API / Custom ML scripts             |
+| **AiIntegration**| Chatbase API / Custom ML scripts              |
 | **Styling**      | Flexbox, CSS Grid, Custom Stylesheets         |
 | **Deployment**   | GitHub Pages                                  |
 | **Version Ctrl** | Git & GitHub                                  |
@@ -60,6 +59,7 @@
 
 
 ## 📂 Project Structure
+/
 ├── index.html               # Landing page
 ├── login.html               # User authentication
 ├── about.html               # About Mediflow AI
@@ -82,17 +82,7 @@
     └── ...
 
 
-## 🚀 Deployment (GitHub Pages)
 
-> This project can be hosted entirely for free using GitHub Pages.
-
-### Steps:
-1. Push your project to a GitHub repository.
-2. Go to **Settings → Pages**
-3. Under **Source**, select your branch (`main` or `master`) and root folder (`/`).
-4. Save and wait for deployment.
-5. Your site will be live at:  
-   `https://<your-username>.github.io/<repo-name>`
 
 
 
@@ -137,15 +127,6 @@
 
 
 
-## 🧠 Made With
-
-- 💻 Pure HTML + CSS + JS
-- 🧠 Chatbase AI
-- 📂 GitHub
-- ❤️ and a ton of coffee
-
-
-
 ## 🙋‍♂️ Who is this for?
 
 - Students who want to demo AI-in-healthcare ideas  
@@ -157,6 +138,6 @@
 
 ## 📧 Contact
 
-Made by **Buchika**  
-For any questions or collabs → [your-email@example.com]  
-GitHub: [github.com/your-username](https://github.com/your-username)
+Made by **PrabhanshuKamal**  
+For any questions or collabs → [prabhanshukamal2121@gmail.com]  
+GitHub: [github.com/PrabhanshuKamal2121](https://github.com/PrabhanshuKamal2121)
