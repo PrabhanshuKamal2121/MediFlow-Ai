@@ -54,7 +54,7 @@ You can download the detailed project documentation below:
 
 | Layer            | Tools & Libraries                             |
 |------------------|-----------------------------------------------|
-| **Frontend**     | HTML5, CSS3, JavaScript (ES6)                 |
+| **Frontend**     | HTML, CSS, JavaScript                         |
 | **AiIntegration**| Chatbase API / Custom ML scripts              |
 | **Styling**      | Flexbox, CSS Grid, Custom Stylesheets         |
 | **Deployment**   | GitHub Pages                                  |
