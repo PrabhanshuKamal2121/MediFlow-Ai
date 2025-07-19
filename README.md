@@ -8,6 +8,11 @@
 > **Mediflow AI** is an end‑to‑end, AI‑powered hospital queue management web app designed to streamline patient flow, reduce wait times, and improve operational efficiency.
 
 
+You can download the detailed project documentation below:
+
+🔗 [📥 Click here to view the full MediFlow AI report (PDF)](./MediFlow%20AI.pdf)
+
+
 ## 🎯 Table of Contents
 
 1. [✨ Features](#-features)  
