@@ -22,11 +22,13 @@
             <div class="loading-progress"></div>
         </div>
     </div>
-    <div class="Clarachatbot">
-        <script>
-            (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="tu7moVg4H9PNO2Dgztf41";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
-            </script>
-    </div>
+    <script type="module">
+	import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+	createChat({
+		webhookUrl: 'https://garfish-helped-gobbler.ngrok-free.app/webhook/56f976bd-b418-4084-a992-de85a946728a/chat'
+	});
+    </script>
     <!-- Main Content -->
     <div class="main-content" id="main-content">
         <!-- Header -->
