@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <title>MediFlow</title>
+    <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
     <link rel="shortcut icon" href="Untitled-73.png" type="image/x-icon">
 </head>
 <body>
+    
     <!-- Loading Screen -->
     <div class="loading-screen" id="loading-screen">
         <div class="logo-container">
@@ -28,6 +30,12 @@
 		webhookUrl: 'https://garfish-helped-gobbler.ngrok-free.app/webhook/56f976bd-b418-4084-a992-de85a946728a/chat'
 	});
     </script>
+    <!-- <div class="Clarachatbot">
+        <script>
+            (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="tu7moVg4H9PNO2Dgztf41";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+            </script>
+    </div> -->
+    <!-- Main Content -->
     <div class="main-content" id="main-content">
         <!-- Header -->
         <header>
@@ -37,7 +45,7 @@
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="index-2.html" class="active">Home</a></li>
                         <li><a href="appointments.html">Appointment</a></li>
                         <li><a href="hospitals.html">Hospitals</a></li>
                         <li><a href="emergency.html" class="emergency-btn">Emergency</a></li>
@@ -141,7 +149,7 @@
                     <div class="footertexting">
                         
                         <div class="footer-links">
-                            <a href="index.html">HOME</a>
+                            <a href="index-2.html">HOME</a>
                             <a href="chat.html">AI ASSISTANT</a>
                             <a href="contact.html">CONTACT US</a>
                             <a href="about.html">ABOUT US</a>
@@ -190,6 +198,6 @@
             });
         });
     </script>
-    <script src="js/chatbase-integration.js"></script>
+    <script src="chatbase-integration.js"></script>
 </body>
 </html>
